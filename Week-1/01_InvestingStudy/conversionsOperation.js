@@ -12,7 +12,7 @@ let profile = {
 }
 
 let objProfile = String(profile);
-// console.log(typeof profile); // object
+console.log(typeof objProfile); // string
 
 // Number Conversion , Syntax -> Number(value)
 
