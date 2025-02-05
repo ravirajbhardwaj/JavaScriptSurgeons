@@ -30,3 +30,9 @@ console.log(Number(""));
 // other value -> true
 
 console.log(Boolean(""))
+
+
+// --------------- Operations ---------------
+
+// + - / * 
+//  ** ->  %
