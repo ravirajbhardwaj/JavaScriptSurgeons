@@ -27,3 +27,8 @@ Refrence/Notes for JS Comparison:
 - ✅ Comparisons me null aur undefined ka dhyan rakhna chahiye, warna unexpected results mil sakte hain.
 
 [Typeof value for datatype [Ask in Interview read]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+
+
+If-else vs Switch
+
+<table><thead><tr><th>Feature</th><th><code>if</code> Statement</th><th><code>switch</code> Statement</th></tr></thead><tbody><tr><td><strong>Use Case</strong></td><td>Multiple conditions check karne ke liye.</td><td>Ek expression ko multiple values se compare karne ke liye.</td></tr><tr><td><strong>Condition Type</strong></td><td>Koi bhi condition (complex ya simple).</td><td>Ek expression ko fixed values se compare karna.</td></tr><tr><td><strong>Readability</strong></td><td>Complex conditions mein zyada readable.</td><td>Fixed values ke liye zyada readable.</td></tr><tr><td><strong>Performance</strong></td><td>Har condition check hoti hai.</td><td>Direct matching, faster in some cases.</td></tr><tr><td><strong>Default Case</strong></td><td><code>else</code> block mein handle hota hai.</td><td><code>default</code> case mein handle hota hai.</td></tr><tr><td><strong>Break Statement</strong></td><td>Not needed.</td><td>Har <code>case</code> ke baad <code>break</code> lagana padta hai (optional).</td></tr></tbody></table>
