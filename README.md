@@ -25,3 +25,5 @@ Refrence/Notes for JS Comparison:
 - ✅ == loose equality check karta hai (type conversion ke saath), jabki === strict equality hai.
 - ✅ null aur undefined ek doosre ke barabar hote hain, lekin kisi aur ke nahi.
 - ✅ Comparisons me null aur undefined ka dhyan rakhna chahiye, warna unexpected results mil sakte hain.
+
+[Typeof value for datatype [Ask in Interview read]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
