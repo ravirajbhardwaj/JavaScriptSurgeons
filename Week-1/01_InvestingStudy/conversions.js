@@ -14,14 +14,13 @@ let profile = {
 let objProfile = String(profile);
 // console.log(typeof profile); // object
 
-// Number Conversion ->   "   123   " -> 123 remove space from end and start if number find then return num other wise return NaN, 
-// true -> 1, false -> 0
+// Number Conversion , Syntax -> Number(value)
 
-// Syntax -> Number(value)
+// "33" => 33
+// "33abc" => NaN but type is Number
+// true => 1; false => 0, null => 0
 
-// console.log(typeof("6" /  "2"));
-
-console.log(Number(false));
+console.log(Number(""));
 
 // Boolean conversion
 
