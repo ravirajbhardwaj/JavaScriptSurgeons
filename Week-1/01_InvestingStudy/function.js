@@ -2,6 +2,8 @@
 
 // function defination below
 
+console.log(sayHi());
+
 function sayHi() {
     console.log("Hi")
 }
