@@ -10,7 +10,9 @@ Animal.prototype.makeSound = function () {
   return "Some generic sound";
 };
 
-const animal = new Animal("Sharu");
+const arg = "Leo"; // Max Buddy
+
+const animal = new Animal(arg);
 
 console.log(animal.name);
 
