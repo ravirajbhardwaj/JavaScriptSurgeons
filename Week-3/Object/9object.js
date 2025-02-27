@@ -5,7 +5,7 @@ function deepClone(obj) {
   //   return JSON.parse(JSON.stringify(obj));
   // }
 
-  if (obj === null || typeof obj === 'object')
+  if (obj === null || typeof obj !== "object") {
+    return obj;
+  }
 }
-
-
